@@ -1,0 +1,49 @@
+.settings-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.settings-panel {
+  background: #16213e;
+  border: 1px solid #333;
+  border-radius: 16px;
+  padding: 2rem;
+  width: 340px;
+}
+
+.settings-panel h2 { margin-bottom: 1.5rem; }
+
+.setting-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.setting-row input {
+  width: 70px;
+  padding: 0.3rem 0.5rem;
+  border: 1px solid #555;
+  background: #0f3460;
+  color: #eee;
+  border-radius: 6px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.close-btn {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.6rem;
+  background: #e94560;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
